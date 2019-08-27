@@ -2,7 +2,7 @@ package cn.pjt.base.net.http;
 
 import android.annotation.SuppressLint;
 import android.os.Build;
-import android.support.annotation.RequiresApi;
+import androidx.annotation.RequiresApi;
 
 import java.io.IOException;
 import java.io.InputStream;

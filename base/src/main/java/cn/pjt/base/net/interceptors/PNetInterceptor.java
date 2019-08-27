@@ -1,6 +1,6 @@
 package cn.pjt.base.net.interceptors;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import java.io.IOException;
 import java.nio.charset.Charset;

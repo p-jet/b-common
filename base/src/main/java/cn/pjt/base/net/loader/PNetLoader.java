@@ -1,7 +1,7 @@
 package cn.pjt.base.net.loader;
 
 import android.content.Context;
-import android.support.v7.app.AppCompatDialog;
+import androidx.appcompat.app.AppCompatDialog;
 import android.util.DisplayMetrics;
 import android.view.Gravity;
 import android.view.Window;
