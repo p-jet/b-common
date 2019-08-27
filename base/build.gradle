@@ -1,10 +1,10 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 android {
-    compileSdkVersion 27
+    compileSdkVersion 28
     defaultConfig {
         minSdkVersion 16
-        targetSdkVersion 27
+        targetSdkVersion 28
     }
 
     buildTypes {
@@ -22,32 +22,32 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     //noinspection GradleCompatible
-    implementation "com.android.support:appcompat-v7:27.1.1"
+    implementation "com.android.support:appcompat-v7:28.0.0"
     //noinspection GradleCompatible
-    implementation "com.android.support:support-v4:27.1.1"
-    implementation "com.android.support:support-compat:27.1.1"
-    implementation "com.android.support:support-fragment:27.1.1"
+    implementation "com.android.support:support-v4:28.0.0"
+    implementation "com.android.support:support-compat:28.0.0"
+    implementation "com.android.support:support-fragment:28.0.0"
     //noinspection GradleCompatible
-    implementation "com.android.support:design:27.1.1"
-    implementation "com.android.support:support-core-utils:27.1.1"
+    implementation "com.android.support:design:28.0.0"
+    implementation "com.android.support:support-core-utils:28.0.0"
 
-    api 'com.github.bumptech.glide:glide:4.8.0'
-    annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
+    api 'com.github.bumptech.glide:glide:4.9.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
     api 'com.blankj:utilcode:1.20.1'
     api 'com.github.tbruyelle:rxpermissions:0.10.2'
 
-    api 'com.android.support:support-annotations:27.1.1'
-    api 'com.alibaba:fastjson:1.2.40'
+    api 'com.android.support:support-annotations:28.0.0'
+    api 'com.alibaba:fastjson:1.2.48'
     api 'id.zelory:compressor:2.1.0'
 
     api 'com.google.code.gson:gson:2.8.5'
 
     //rxjava
-    api 'io.reactivex.rxjava2:rxjava:2.2.4'
-    api 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    api 'io.reactivex.rxjava2:rxjava:2.2.10'
+    api 'io.reactivex.rxjava2:rxandroid:2.1.1'
 
-    implementation 'com.trello.rxlifecycle2:rxlifecycle-components:2.1.0'
-    implementation 'com.trello.rxlifecycle2:rxlifecycle-navi:2.1.0'
+    implementation 'com.trello.rxlifecycle2:rxlifecycle-components:2.2.2'
+    implementation 'com.trello.rxlifecycle2:rxlifecycle-navi:2.2.2'
 
     //retrofit
     api 'com.squareup.retrofit2:retrofit:2.5.0'
